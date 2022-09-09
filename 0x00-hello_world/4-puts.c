@@ -5,8 +5,9 @@
  *
  * Return: Always 0 (success)
  */
-int put_string()
+int main()
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	char myStr[] = "\"Programming is like building a multilingual puzzle\n";
+	puts(myStr);
 	return (0);
 }
