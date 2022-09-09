@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - prints a string to the terminal
@@ -8,8 +7,6 @@
  */
 int main(void)
 {
-	char myStr[] = "\"Programming is like building a multilingual puzzle\n";
-
-	puts(myStr);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
