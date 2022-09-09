@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	int ld; /* The last digit of n */ 
+	int ld; /* The last digit of n */
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
