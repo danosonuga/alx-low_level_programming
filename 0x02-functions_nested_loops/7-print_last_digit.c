@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdlib.h>
 
 /**
  * print_last_digit - Prints the last digit of the parameter
