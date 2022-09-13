@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * print_last_digit - Prints the last digit of the parameter
@@ -8,7 +9,7 @@
  */
 int print_last_digit(int n)
 {
-	int lastdigit = n % 10;
+	int lastdigit = abs(n) % 10;
 
 	_putchar(lastdigit + '0');
 
