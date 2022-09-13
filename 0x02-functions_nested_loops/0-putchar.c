@@ -9,6 +9,7 @@
 int main(void)
 {
 	char str[] = "_putchar";
+
 	unsigned int long i;
 
 	for (i = 0; i < strlen(str); i++)
