@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <string.h>
+#include "main.h"
 /**
  * main - Entry point of the program
  *
@@ -7,6 +8,13 @@
  */
 int main(void)
 {
-	write(1, "_putchar\n", 10);
+	char str[] = "_putchar";
+	long unsigned int i;
+
+	for (i = 0; i < strlen(str); i++)
+	{
+		_putchar(str[i]);
+	}
+	putchar('\n');
 	return (0);
 }
