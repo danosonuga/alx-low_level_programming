@@ -11,9 +11,11 @@ void times_table(void)
 
 	while (row < 10)
 	{
+		int col = 0;
+
 		_putchar(row + '0');
 		_putchar(',');
-		int col = 0;
+
 		int val = row * col;
 
 		while (col < 10)
