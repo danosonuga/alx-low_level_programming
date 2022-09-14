@@ -1,33 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_to_98 - prints the numbers up or down to 98
- * @n: accepts a parameter n
- *
- * Return: n
+ * 	in order seprated by a comma followed by a space
+ * @n: The number to begin counting at, 
  */
 void print_to_98(int n)
 {
-	if (n > 98)
+	if (n >= 98)
 	{
-		while (n >= 98)
-		{
+		while (n > 98)
 			printf("%d, ", n--);
 			printf("%d\n", n);
-		}
 		printf("\n");
-	}
-	else if (n <= 98)
-	{
-		while (n < 98)
-		{
-			printf("%d, ", n++);
-			n++;
-		}
 	}
 	else
 	{
-		printf("%d", n);
+		while (n < 98)
+			printf("%d, ", n++);
 	}
+		printf("%d\n", n);
 }
