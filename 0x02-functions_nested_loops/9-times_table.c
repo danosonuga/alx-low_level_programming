@@ -20,15 +20,15 @@ void times_table(void)
 		{
 			val = col * row;
 
-			_putchar(' ');
-			_putchar(' ');
-
 			if (val <= 9)
 			{
+				_putchar(' ');
+				_putchar(' ');
 				_putchar(val + '0');
 			}
 			else
 			{
+				_putchar(' ');
 				_putchar((val / 10) + '0');
 				_putchar((val % 10) + '0');
 			}
