@@ -16,11 +16,6 @@ void times_table(void)
 		_putchar(0 + '0');
 		_putchar(',');
 
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(row + '0');
-		_putchar(',');
-
 		while (col < 8)
 		{
 			val = col * row;
