@@ -21,10 +21,10 @@ void times_table(void)
 		_putchar(row + '0');
 		_putchar(',');
 
-		val = row + col;
-
 		while (col < 8)
 		{
+			val = col * row;
+
 			_putchar(' ');
 			_putchar(' ');
 			_putchar(val + '0');
