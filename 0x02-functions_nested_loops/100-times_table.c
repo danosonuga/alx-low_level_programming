@@ -12,14 +12,14 @@ void print_times_table(int n)
 	{
 		int row = 0, val;
 
-		while (row < n)
+		while (row <= n)
 		{
 			int col = 1;
 
 			_putchar(0 + '0');
 			_putchar(',');
 
-			while (col < n)
+			while (col <= n)
 			{
 				val = col * row;
 
