@@ -30,12 +30,18 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(val + '0');
 				}
-				else
+				else if (val > 9 && val < 100)
 				{
 					_putchar(' ');
 					_putchar(' ');
 					_putchar((val / 10) + '0');
 					_putchar((val % 10) + '0');
+				}
+				else
+				{
+					_putchar(' ');
+					_putchar((val / 100) + '0');
+					_putchar((val % 100) + '0');
 				}
 				if (col != n)
 				{
