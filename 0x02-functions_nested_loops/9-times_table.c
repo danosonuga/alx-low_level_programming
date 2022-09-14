@@ -13,10 +13,10 @@ void times_table(void)
 	{
 		int col = 1;
 
-		_putchar(row + '0');
+		_putchar(0 + '0');
 		_putchar(',');
 
-		while (col < 8)
+		while (col < 10)
 		{
 			val = col * row;
 
