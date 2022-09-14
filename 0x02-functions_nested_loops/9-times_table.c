@@ -18,7 +18,7 @@ void times_table(void)
 
 		val = row * col;
 
-		while (col < 10)
+		while (col < 9)
 		{
 			_putchar(' ');
 			_putchar(' ');
