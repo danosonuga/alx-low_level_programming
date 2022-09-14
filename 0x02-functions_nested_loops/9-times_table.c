@@ -18,11 +18,11 @@ void times_table(void)
 
 		while (col < 10)
 		{
-			_putchar(" ");
-			_putchar(" ");
+			_putchar(' ');
+			_putchar(' ');
 			_putchar(val + '0');
-			_putchar(",");
-			
+			_putchar(',');
+
 			col++;
 		}
 		row++;
