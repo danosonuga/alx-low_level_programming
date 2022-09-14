@@ -21,7 +21,7 @@ void times_table(void)
 		_putchar(row + '0');
 		_putchar(',');
 
-		val = row * col;
+		val = row + col;
 
 		while (col < 8)
 		{
