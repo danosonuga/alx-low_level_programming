@@ -14,7 +14,10 @@ void times_table(void)
 		int col = 0;
 
 		_putchar(0 + '0');
+		_putchar(',');
 
+		_putchar(' ');
+		_putchar(' ');
 		_putchar(row + '0');
 		_putchar(',');
 
