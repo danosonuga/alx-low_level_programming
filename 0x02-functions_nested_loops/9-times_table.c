@@ -13,7 +13,7 @@ void times_table(void)
 	{
 		int col = 1;
 
-		_putchar(22 + '0');
+		_putchar(0);
 		_putchar(',');
 
 		while (col < 10)
@@ -22,7 +22,7 @@ void times_table(void)
 
 			_putchar(' ');
 			_putchar(' ');
-			_putchar(val + '0');
+			_putchar(val);
 			_putchar(',');
 
 			col++;
