@@ -7,7 +7,7 @@
  *
  * Return: n
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	if (n > 98)
 	{
@@ -26,5 +26,4 @@ int print_to_98(int n)
 			n++;
 		}
 	}
-	return (n);
 }
