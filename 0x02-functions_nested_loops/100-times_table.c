@@ -40,9 +40,11 @@ void print_times_table(int n)
 				else
 				{
 					int remain = val % 10;
+					int whole = val / 10;
 
 					_putchar(' ');
-					_putchar((val / 10) + '0');
+					_putchar((whole / 10) + '0');
+					_putchar((whole % 10) + '0');
 					_putchar(remain + '0');
 				}
 				if (col != n)
