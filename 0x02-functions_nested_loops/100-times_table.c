@@ -61,5 +61,6 @@ void print_times_table(int n)
 	else if (n == 0)
 	{
 		_putchar(n + '0');
+		_putchar('\n');
 	}
 }
