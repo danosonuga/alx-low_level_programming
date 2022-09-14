@@ -39,7 +39,7 @@ void print_times_table(int n)
 				}
 				else
 				{
-					int remain = val $ 10;
+					int remain = val % 10;
 
 					_putchar(' ');
 					_putchar((val / 100) + '0');
