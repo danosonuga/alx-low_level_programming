@@ -1,13 +1,14 @@
 #include "main.h"
+
 /**
- * _isupper - It gets the character input to check the case
+ * _isdigit - Checks if the parameter is a digit
  * @c: The parameter to be checked
  *
  * Return: 1 or 0
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (isupper(c))
+	if(isdigit(c))
 	{
 		return (1);
 	}
